@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/cardlayout"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    android:background="@color/white"
+    app:cardCornerRadius="10dp"
+    android:elevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvTitle"
+                android:text="Title"
+                android:layout_marginStart="10dp"
+                android:layout_alignParentStart="true"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDesc"
+            android:layout_marginStart="10dp"
+            android:text="Desc"
+            android:textSize="25sp"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDate"
+            android:text="121212"
+            android:layout_alignParentStart="true"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
